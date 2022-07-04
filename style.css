@@ -41,20 +41,30 @@ p {
 }
 
 .price-original {
-  margin: 30px 30px;
   text-decoration: line-through;
+  top: 1.5em;
+  position: relative;
+  margin-left: 20px;
 }
 
 .cart-button {
   border: none;
   background-color: hsl(158, 36%, 37%);
   color: hsl(0, 0%, 100%);
-  padding: 20px;
-  width: 80%;
+  padding: 10px;
+  width: 100%;
   display: block;
   margin: auto;
   border-radius: 10px;
   cursor: pointer;
+}
+
+.cart-button img {
+  height: 1.5em;
+  width: 1.5em;
+  top: .25em;
+  position: relative;
+  margin-right: 10px;
 }
 
 .attribution {
