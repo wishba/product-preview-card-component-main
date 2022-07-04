@@ -7,31 +7,43 @@ body {
 .card {
   margin: auto;
   width: 95%;
-  background-color: hsl(0, 0%, 100%);
   border-radius: 10px;
+  background-color: hsl(0, 0%, 100%);
 }
 
-.card img {
+.card-container {
+  padding: 20px;
+}
+
+img {
   width: 100%;
   border-radius: 10px 10px 0 0;
 }
 
-.card h1 {
+h1 {
   font-family: 'Fraunces', sans-serif;
   font-weight: 700;
 }
 
-.card .price {
+.price {
   display: flex;
 }
 
-.card .price-original {
-  text-decoration: line-through;
+.price-original {
   margin: 30px 30px;
+  text-decoration: line-through;
 }
 
-.card .cart {
-  text-align: center;
+.cart-button {
+  border: none;
+  background-color: hsl(158, 36%, 37%);
+  color: hsl(0, 0%, 100%);
+  padding: 20px;
+  width: 80%;
+  display: block;
+  margin: auto;
+  border-radius: 10px;
+  cursor: pointer;
 }
 
 .attribution {
