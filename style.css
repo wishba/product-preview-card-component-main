@@ -17,7 +17,8 @@ p {
 
 .card {
   margin: auto;
-  width: 95%;
+  /* width: 95%; */
+  width: 350px;
   border-radius: 10px;
   background-color: hsl(0, 0%, 100%);
 }
@@ -78,4 +79,17 @@ p {
 
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+
+/* when the screen is more than 375px wide */
+@media screen and (min-width: 375px) {
+  /* .card__container--head {
+    content: url(images/image-product-desktop.jpg);
+    height: 100%;
+  } */
+
+  .card {
+    width: 500px;
+  }
 }
