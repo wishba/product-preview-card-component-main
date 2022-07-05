@@ -59,6 +59,10 @@ p {
   cursor: pointer;
 }
 
+.cart-button:hover {
+  background-color: hsl(158, 36%, 17%);
+}
+
 .cart-button img {
   height: 1.5em;
   width: 1.5em;
