@@ -2,22 +2,6 @@ body {
   background-color: hsl(30, 38%, 92%);
 }
 
-.card {
-  margin: auto;
-  width: 95%;
-  border-radius: 10px;
-  background-color: hsl(0, 0%, 100%);
-}
-
-.card-container {
-  padding: 20px;
-}
-
-img {
-  width: 100%;
-  border-radius: 10px 10px 0 0;
-}
-
 h1 {
   font-family: 'Fraunces', sans-serif;
   font-weight: 700;
@@ -27,45 +11,61 @@ h1 {
 p {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
-  /* font-weight: 500; */
   font-size: 14px;
   color: hsl(228, 12%, 48%);
 }
 
-.price {
+.card {
+  margin: auto;
+  width: 95%;
+  border-radius: 10px;
+  background-color: hsl(0, 0%, 100%);
+}
+
+/* .card__container {} */
+
+.card__container--head {
+  content: url(images/image-product-mobile.jpg);
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+
+.card__container--body {
+  padding: 20px;
+}
+
+.card__price {
   display: flex;
 }
 
-.price-discount {
+.card__discount {
   color: hsl(158, 36%, 37%);
 }
 
-.price-original {
+.card__original {
   text-decoration: line-through;
   top: 1.5em;
   position: relative;
   margin-left: 20px;
 }
 
-.cart-button {
+.card__button {
   border: none;
   background-color: hsl(158, 36%, 37%);
   color: hsl(0, 0%, 100%);
-  padding: 10px;
+  padding: 15px;
   width: 100%;
   display: block;
   margin: auto;
   border-radius: 10px;
-  cursor: pointer;
 }
 
-.cart-button:hover {
+.card__button:hover {
+  cursor: pointer;
   background-color: hsl(158, 36%, 17%);
 }
 
-.cart-button img {
-  height: 1.5em;
-  width: 1.5em;
+.card__cart {
   top: .25em;
   position: relative;
   margin-right: 10px;
