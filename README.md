@@ -24,7 +24,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot-desktop.png)
+<img src="screenshot-desktop.png" height="300">
+<img src="screenshot-mobile.png" height="300">
 
 ### Links
 
