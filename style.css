@@ -23,7 +23,7 @@ p {
 }
 
 .card__head {
-  content: url(images/image-product-mobile.jpg);
+  /* content: url(images/image-product-mobile.jpg); */
   width: 100%;
   border-radius: 10px 10px 0 0;
 }
