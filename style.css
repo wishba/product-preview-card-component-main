@@ -29,6 +29,18 @@ h1 {
   color: var(--very-dark-blue);
 }
 
+button {
+  width: 100%;
+  height: 3rem;
+  margin: 1.5rem 0;
+  border: none;
+  border-radius: .5rem;
+  font-family: inherit;
+  font-weight: inherit;
+  color: var(--white);
+  background: var(--dark-cyan);
+}
+
 main {
   margin: 1rem;
   background-color: var(--white);
