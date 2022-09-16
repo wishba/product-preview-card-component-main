@@ -61,3 +61,7 @@ main {
   /* padding: 3rem; */
   /* border-radius: .5rem; */
 }
+
+.main__body p {
+  color: var(--dark-grayish-blue);
+}
