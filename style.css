@@ -51,7 +51,7 @@ main {
 }
 
 .main__img {
-  max-width: 100%;
+  width: 100%;
   border-top-left-radius: .5rem;
   border-top-right-radius: .5rem;
 }
