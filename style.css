@@ -47,7 +47,6 @@ main {
 
 .main__price {
   display: flex;
-  align-items: center;
 }
 
 .card__discount {
@@ -55,10 +54,10 @@ main {
   font-weight: 700;
   color: var(--dark-cyan);
   font-size: 2rem;
+  margin: 0;
 }
 
 .card__original {
   margin-left: 1.5rem;
-  /* text-decoration: line-through; */
-  /* text-decoration: strike-through; */
+  text-decoration: line-through;
 }
