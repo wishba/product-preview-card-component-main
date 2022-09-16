@@ -45,6 +45,9 @@ main {
   margin: 1rem;
   background-color: var(--white);
   border-radius: .5rem;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .main__img {
@@ -72,4 +75,9 @@ main {
 .card__original {
   margin-left: 1.5rem;
   text-decoration: line-through;
+}
+
+.attribution {
+  position: absolute;
+  bottom: 0;
 }
