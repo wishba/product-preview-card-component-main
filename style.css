@@ -21,3 +21,14 @@ h1 {
   font-family: 'Fraunces', serif;
   font-weight: 700;
 }
+
+main {
+  background: lightgray;
+  padding-top: 35vh;
+  border-radius: .5rem;
+}
+
+div {
+  background: gray;
+  border-radius: .5rem;
+}
