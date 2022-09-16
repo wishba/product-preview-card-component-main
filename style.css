@@ -11,10 +11,19 @@
 }
 
 body {
+  margin: 0;
+  padding: 0;
   font-size: 14px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
-  padding: 1rem;
+  background-color: var(--cream);
+  /* background-color: darkgray; */
+  /* padding: 1rem; */
+}
+
+p {
+  /* margin: 0; */
+  /* padding: 0; */
 }
 
 h1 {
@@ -22,17 +31,33 @@ h1 {
   font-weight: 700;
 }
 
-main {
-  margin: 50vh auto auto;
-  transform: translateY(-50%);
-  background: lightgray;
-  padding-top: 35vh;
-  border-radius: .5rem;
-  max-width: 50rem;
+.main__img {
+  max-width: 100%;
+  border-top-left-radius: .5rem;
+  border-top-right-radius: .5rem;
 }
 
-div {
-  background: gray;
-  border-bottom-left-radius: .5rem;
-  border-bottom-right-radius: .5rem;
+main {
+  margin: 1rem;
+  background-color: var(--white);
+  border-radius: .5rem;
+  /* display: grid; */
+  /* height: 100%; */
+  /* margin: 1rem; */
+  /* margin: 50vh 0 0; */
+  /* margin: 50vh auto auto; */
+  /* transform: translateY(-50%); */
+  /* background: darkgray; */
+  /* padding-top: 35vh; */
+  /* max-width: 50rem; */
+}
+
+.main__body {
+  margin: 1.5rem;
+  /* background-color: var(--white); */
+  /* background: gray; */
+  /* border-bottom-left-radius: .5rem; */
+  /* border-bottom-right-radius: .5rem; */
+  /* padding: 3rem; */
+  /* border-radius: .5rem; */
 }
