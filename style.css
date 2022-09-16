@@ -38,7 +38,7 @@ button {
   font-family: inherit;
   font-weight: inherit;
   color: var(--white);
-  background: url(images/icon-cart.svg) no-repeat center left 5rem, var(--dark-cyan);
+  background: url(images/icon-cart.svg) no-repeat center left 40%, var(--dark-cyan);
 }
 
 main {
