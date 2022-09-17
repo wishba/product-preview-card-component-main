@@ -31,7 +31,7 @@ button {
   width: 100%;
 }
 
-button img {
+button>img {
   width: 1em;
 }
 
@@ -49,6 +49,11 @@ p {
 main {
   margin: 2rem 1rem;
   background-color: var(--white);
+  border-radius: 1rem;
+}
+
+main>img {
+  border-radius: 1rem 1rem 0 0;
 }
 
 /* 
