@@ -75,9 +75,19 @@ main>img {
   margin: 0;
 }
 
+.main__price-container {
+  display: flex;
+}
+
 .main__price {
   font-size: 2em;
   color: var(--dark-cyan);
   font-family: 'Fraunces', serif;
   font-weight: 700;
+  margin: 0;
+}
+
+.main__price-before {
+  margin-left: 1.5em;
+  text-decoration: line-through;
 }
