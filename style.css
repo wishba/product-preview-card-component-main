@@ -74,3 +74,10 @@ main>img {
 .main__body>button {
   margin: 0;
 }
+
+.main__price {
+  font-size: 2em;
+  color: var(--dark-cyan);
+  font-family: 'Fraunces', serif;
+  font-weight: 700;
+}
