@@ -60,5 +60,17 @@ main>img {
 }
 
 .main__body {
-  margin: 2rem;
+  margin: auto 2rem;
+}
+
+.main__body>p {
+  margin: 1em 0;
+}
+
+.main__body>h1 {
+  margin: 0;
+}
+
+.main__body>button {
+  margin: 0;
 }
