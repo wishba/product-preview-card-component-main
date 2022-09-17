@@ -3,6 +3,7 @@
 
 :root {
   --dark-cyan: hsl(158, 36%, 37%);
+  --dark-cyan-hover: hsl(158, 15%, 37%);
   --cream: hsl(30, 38%, 92%);
 
   --very-dark-blue: hsl(212, 21%, 14%);
@@ -61,6 +62,11 @@ main {
   height: 3em;
   border-radius: .5rem;
   margin: .5rem 0 1.5rem 0;
+}
+
+.main__body>button:hover {
+  cursor: pointer;
+  background-color: var(--dark-cyan-hover);
 }
 
 .main__body>button>img {
