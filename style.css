@@ -111,12 +111,10 @@ footer {
   .main__img {
     content: url(images/image-product-desktop.jpg);
     width: 20rem;
-    /* width: 55%; */
     border-radius: 1rem 0 0 1rem;
   }
 
   .main__body {
     width: 16rem;
-    /* width: 45%; */
   }
 }
