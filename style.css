@@ -10,6 +10,16 @@
   --white: hsl(0, 0%, 100%);
 }
 
+html {
+  /* box-sizing: border-box; */
+}
+
+*,
+*:before,
+*:after {
+  /* box-sizing: inherit; */
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -19,6 +29,7 @@ body {
 }
 
 img {
+  /* width: 50px; */
   width: 100%;
 }
 
@@ -47,13 +58,18 @@ p {
 }
 
 main {
-  margin: 2rem 1rem;
+  /* width: 100%; */
+  margin: 0 1rem;
   background-color: var(--white);
   border-radius: 1rem;
 }
 
 main>img {
   border-radius: 1rem 1rem 0 0;
+}
+
+.main__body {
+  margin: 2rem;
 }
 
 /* 
