@@ -104,16 +104,19 @@ footer {
 @media (min-width:600px) {
   main {
     display: flex;
-    margin: 0 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 
   .main__img {
     content: url(images/image-product-desktop.jpg);
-    width: 55%;
+    width: 20rem;
+    /* width: 55%; */
     border-radius: 1rem 0 0 1rem;
   }
 
   .main__body {
-    width: 45%;
+    width: 16rem;
+    /* width: 45%; */
   }
 }
